@@ -10,7 +10,7 @@ public class ChicksWithSticksApplication {
     public static void main(String[] args) {
         SpringApplication.run(ChicksWithSticksApplication.class, args);
     }
-    @GetMapping("index")
+    @GetMapping("/index")
     public String frontPage(){
         return "index";
     }
